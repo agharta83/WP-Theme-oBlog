@@ -1,0 +1,13 @@
+.copyright {
+    text-align: right;
+    font-size: 0.8em;
+
+    &__title {
+        font-weight: $font-weight-bold;
+        margin: 0 0 0.5em;
+    }
+
+    &__text {
+        margin: 0;
+    }
+}

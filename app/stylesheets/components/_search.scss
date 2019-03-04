@@ -1,0 +1,24 @@
+.search {
+    margin: 0 0.3;
+
+    &__form {
+        display: block;
+        align-items: center;
+
+
+        &__label {
+            margin-right: 0.3em;
+        }
+
+        &__field {
+            border: none;
+            outline: none;
+            width: 8em;
+
+            &::placeholder {
+                font-weight: $font-weight-bold;
+                color: $text-color;
+            }
+        }
+    }
+}

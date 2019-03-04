@@ -1,0 +1,9 @@
+.main-nav {
+    & &__link {
+        margin: 0 1em;
+
+        &:hover {
+            font-weight: $font-weight-bold;
+        }
+    }
+}

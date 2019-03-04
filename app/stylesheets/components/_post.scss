@@ -1,0 +1,44 @@
+.post {
+    position: relative;
+
+    &__title {
+        margin: 0;
+        font-size: 3em;
+        width: 80%;
+
+        &__text {
+            background: linear-gradient(
+                to top,
+                transparentize($main-color, 1) 13%,
+                $main-color 13%,
+                $main-color 35%,
+                transparentize($main-color, 1) 35%
+            );
+        }
+    }
+
+    &__image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 50%;
+        max-width: 45%;
+        z-index: -1;
+        opacity: 0.5;
+    }
+
+    &__info {
+        color: lighten($text-color, 10%);
+        margin: 2em 0;
+        font: {
+            style: italic;
+            size: 0.8em;
+        }
+    }
+
+    &__content {
+        width: 45%;
+        margin-left: 5%;
+        line-height: 2.1em;
+    }
+}

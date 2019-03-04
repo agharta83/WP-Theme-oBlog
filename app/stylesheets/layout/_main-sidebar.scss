@@ -1,0 +1,15 @@
+.main-sidebar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+  
+    & .main {
+      width: 75%;
+      order: 2;
+    }
+  
+    & .sidebar {
+      width: 20%;
+      order: 1;
+    }
+  }
