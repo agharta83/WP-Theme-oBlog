@@ -12,4 +12,10 @@
       width: 20%;
       order: 1;
     }
+
+    &--without-sidebar {
+      .main {
+        width: 100%;
+      }
+    }
   }
